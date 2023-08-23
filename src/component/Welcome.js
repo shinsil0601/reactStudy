@@ -1,6 +1,11 @@
+import styles from "./Welcome.module.css";
+
 const Welcome = () => {
     return(
-        <h2>Welcome 람다식</h2>
+        <>
+        <h2 className={styles.fb}>Welcome 람다식</h2>
+        <div className={styles.box}></div>
+        </>
     )
 }
 
